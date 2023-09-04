@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "chromalights",
+	"version": "1.0",
+	"name": "Chroma Lights",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"MonsterTrex"
+	],
+	"contact": {
+		"homepage": "*",
+		"sources": "*"
+	},
+	"license": "MIT",
+	"icon": "assets/chromalights/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.monstertrex.chromalights.ChromaLightsMod"
+		],
+		"fabric-datagen": [
+			"net.monstertrex.chromalights.ChromaLightsModDataGenerator"
+		],
+		"client": [
+			"net.monstertrex.chromalights.ChromaLightsModClient"
+		]
+	},
+	"mixins": [
+		"chromalights.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.22",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
