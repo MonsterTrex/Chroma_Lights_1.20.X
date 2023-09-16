@@ -8,8 +8,8 @@
 		"MonsterTrex"
 	],
 	"contact": {
-		"homepage": "*",
-		"sources": "*"
+		"homepage": "https://github.com/MonsterTrex",
+		"sources": "https://github.com/MonsterTrex/Chroma_Lights_1.20.X"
 	},
 	"license": "MIT",
 	"icon": "assets/chromalights/icon.png",
